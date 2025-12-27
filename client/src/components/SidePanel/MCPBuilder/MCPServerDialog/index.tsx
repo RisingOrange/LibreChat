@@ -196,12 +196,12 @@ export default function MCPServerDialog({
                 <Button
                   type="button"
                   variant="outline"
-                  size="sm"
+                  size="icon"
                   aria-label={localize('com_ui_delete')}
                   onClick={() => setShowDeleteConfirm(true)}
                   disabled={isSubmitting || isDeleting}
                 >
-                  <div className="flex w-full items-center justify-center gap-2 text-red-500">
+                  <div className="flex w-full items-center justify-center text-red-500">
                     <TrashIcon />
                   </div>
                 </Button>
